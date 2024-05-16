@@ -1,54 +1,30 @@
 package myfiles;
+import java.lang.reflect.Array;
 import java.util.*;
-
 import org.testng.annotations.*;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
 
 public class TestJava{
-	
-	 String h = "hello";
-
-@BeforeClass
-void CDE()	
-{
-	System.out.println("You are in before class");
-}
-
-@AfterClass
-void DEF()	
-{
-	System.out.println("you are in after class");
-}
-@Test()
-void GHI()	
-{
-	System.out.println("you are in test");
-}
-@BeforeTest()	
-void ABC()	
-{
-	System.out.println("you are in before test");
-} 
 
 
+	public static void main(String args[])
+	{
+		 // Array declaration and initialization
+		StringBuffer sf = new StringBuffer("hello");
+        
 
-@BeforeSuite()	
-void MMM()	
-{
-	System.out.println("you are in before suite");
-} 
+    String str2 = "Hello";
+    
+    str2 = "Welcome";
+    		
 
-@AfterTest()	
-void XYZ()	
-{
-	System.out.println("you are in after test");
-} 
-
-@AfterSuite()	
-void LKJ()	
-{
-	System.out.println("you are in after suite");
-} 
-
+    System.out.println(str2);
+	   
+	    
+	    
+		
+		
+		
+		
+		
+    }
 }
