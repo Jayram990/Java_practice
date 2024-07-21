@@ -1,30 +1,45 @@
 package myfiles;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.lang.reflect.Array;
 import java.util.*;
+import java.util.stream.IntStream;
+
 import org.testng.annotations.*;
 
-public class TestJava{
-
-
-	public static void main(String args[])
+public class TestJava {
+	
+	int a;
+	int b = 30;
+	
+	static int c = 30;
+	
+	TestJava(int a)
 	{
-		 // Array declaration and initialization
-		StringBuffer sf = new StringBuffer("hello");
-        
+		this.a = a;
+		System.out.println(b);
+		System.out.println(a);
+		
+	}
+	
+	static
+	{
+		System.out.println("Welcome to home");
+	}
 
-    String str2 = "Hello";
-    
-    str2 = "Welcome";
-    		
+public static void main(String[] args) throws IOException {
+		TestJava ts = new TestJava(20);
+		
+		
+		
+		
+		
 
-    System.out.println(str2);
-	   
-	    
-	    
-		
-		
-		
-		
-		
-    }
+	}
 }
