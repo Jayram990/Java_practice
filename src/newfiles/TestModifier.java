@@ -7,8 +7,7 @@ public class TestModifier  {
 		TestJava tj = new TestJava();
 		
 		//test
-		
-		//added changes from Test1 branch
+		//added changes from Test branch
 	
 	}
 
