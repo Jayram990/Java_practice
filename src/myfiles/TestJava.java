@@ -15,26 +15,10 @@ import org.testng.annotations.*;
 
 public class TestJava {
 	
-	int a;
-	int b = 30;
-	
-	static int c = 30;
-	
-	TestJava(int a)
-	{
-		this.a = a;
-		System.out.println(b);
-		System.out.println(a);
-		
-	}
-	
-	static
-	{
-		System.out.println("Welcome to home");
-	}
 
+	
 public static void main(String[] args) throws IOException {
-		TestJava ts = new TestJava(20);
+		TestJava ts = new TestJava();
 		
 		
 		
