@@ -9,7 +9,6 @@ public class TestModifier  {
 		//test
 		
 		//added changes from Test1 branch - NEW
-		//added changes from test branch- for conflicts
 		//added changes from Test branch commit 3
 
 
