@@ -12,9 +12,6 @@ public class TestModifier  {
 
 		//added changes from Test1 branch commit 5
 
-
-
-
 	
 	}
 
