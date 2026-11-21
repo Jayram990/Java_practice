@@ -7,7 +7,7 @@ public class TestModifier  {
 		TestJava tj = new TestJava();
 		//hi
 		//test
-		
+		//added today from Test1
 		//added changes from Test1 branch - NEW
 
 		//added changes from Test branch commit 8 
